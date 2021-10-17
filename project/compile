@@ -1,3 +1,7 @@
 #!/bin/bash
 
 echo "Compile your project here"
+pip install cryptography
+pip install requests
+pip install dnslib
+pip install simplejson

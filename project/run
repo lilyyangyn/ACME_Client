@@ -4,3 +4,6 @@ echo "Changing to ${DIRECTORY}"
 cd  "$DIRECTORY" || exit 1
 
 echo "Run your project here."
+
+chmod +x src/acme_client.py
+python3 src/acme_client.py "$@"
